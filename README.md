@@ -18,3 +18,9 @@ If you feel like there's a major problem, please open an issue to discuss the pr
 ## License
 
 MIT
+
+## Dependencies
+react-thunk
+react-redux
+react-icons
+react-redux-loading
