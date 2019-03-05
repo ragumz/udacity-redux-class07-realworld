@@ -24,3 +24,4 @@ react-thunk
 react-redux
 react-icons
 react-redux-loading
+react-router-dom
