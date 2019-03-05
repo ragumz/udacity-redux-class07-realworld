@@ -22,6 +22,7 @@ class NewTweet extends Component {
   handleSubmit = (e) => {
     e.preventDefault()
     const { text } = this.state
+    //when it exists id prop it is a reply to an existing tweet
     const { dispatch, id } = this.props
     dispatch(handleAddTweet(text, id))
     this.setState(() => ({
