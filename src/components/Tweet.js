@@ -21,6 +21,7 @@ class Tweet extends Component {
 
   toParent = (e, id) => {
     e.preventDefault();
+    //force navigation through function, being outside render
     this.props.history.push(`/tweet/${id}`)
   };
 
